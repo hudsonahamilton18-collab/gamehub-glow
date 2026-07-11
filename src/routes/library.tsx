@@ -56,7 +56,7 @@ function LibraryPage() {
             onChange={(e) => {
               setLocalQ(e.target.value);
               navigate({
-                search: (prev) => ({ ...prev, q: e.target.value || undefined }),
+                search: (prev: Record<string, unknown>) => ({ ...prev, q: e.target.value || undefined }),
                 replace: true,
               });
             }}
@@ -69,7 +69,7 @@ function LibraryPage() {
           <Chip
             active={category === "All" && !showFav}
             onClick={() =>
-              navigate({ search: (prev) => ({ ...prev, category: undefined, favorites: undefined }) })
+              navigate({ search: (prev: Record<string, unknown>) => ({ ...prev, category: undefined, favorites: undefined }) })
             }
           >
             All
@@ -79,7 +79,7 @@ function LibraryPage() {
               key={cat}
               active={category === cat && !showFav}
               onClick={() =>
-                navigate({ search: (prev) => ({ ...prev, category: cat, favorites: undefined }) })
+                navigate({ search: (prev: Record<string, unknown>) => ({ ...prev, category: cat, favorites: undefined }) })
               }
             >
               {cat}
@@ -88,7 +88,7 @@ function LibraryPage() {
           <Chip
             active={showFav}
             onClick={() =>
-              navigate({ search: (prev) => ({ ...prev, favorites: showFav ? undefined : true }) })
+              navigate({ search: (prev: Record<string, unknown>) => ({ ...prev, favorites: showFav ? undefined : true }) })
             }
           >
             <Heart className={`h-3.5 w-3.5 ${showFav ? "fill-current" : ""}`} /> Favorites
