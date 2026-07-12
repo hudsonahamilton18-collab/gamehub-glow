@@ -4,6 +4,7 @@ import slopeThumb from "@/assets/thumb-slope.png";
 import driftBossThumb from "@/assets/thumb-drift-boss.png";
 import twentyFortyEightThumb from "@/assets/thumb-2048.png";
 import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
+import paperIoThumb from "@/assets/thumb-paper-io.jpg";
 
 export type Game = {
   slug: string;
@@ -91,6 +92,18 @@ export const GAMES: Game[] = [
       "Sprint down endless subway tracks, dodge oncoming trains, grab coins and power-ups, and see how far you can go before the grumpy inspector catches up. A timeless endless runner.",
     thumbnail: subwaySurfersThumb,
     embedUrl: "https://www.madkidgames.com/full/subway-surfers",
+    addedAt: "2026-07-12",
+    trending: true,
+  },
+  {
+    slug: "paper-io",
+    title: "Paper.io 2",
+    category: "Arcade",
+    shortDescription: "Claim territory and outmaneuver rival paper snakes.",
+    description:
+      "Roll out from your home base, sweep across the map, and loop back to claim territory. Cut off rivals to eliminate them — but if anyone touches your trail before you close it, you're out.",
+    thumbnail: paperIoThumb,
+    embedUrl: "/games/paper-io/index.html",
     addedAt: "2026-07-12",
     trending: true,
   },
