@@ -1,6 +1,5 @@
 import escapeRoadThumb from "@/assets/thumb-escape-road.jpg";
 import snowRiderThumb from "@/assets/thumb-snow-rider.png";
-import driftHuntersThumb from "@/assets/thumb-drift-hunters.png";
 import slopeThumb from "@/assets/thumb-slope.png";
 import driftBossThumb from "@/assets/thumb-drift-boss.png";
 import twentyFortyEightThumb from "@/assets/thumb-2048.png";
@@ -57,18 +56,6 @@ export const GAMES: Game[] = [
       "Grab your sled and rocket down a frosty 3D mountain. Weave past trees, snowmen and giant gifts, collect coins and unlock new sleds. Simple to pick up, tough to master.",
     thumbnail: snowRiderThumb,
     embedUrl: "/games/snow-rider/index.html",
-    addedAt: "2026-07-12",
-    trending: true,
-  },
-  {
-    slug: "drift-hunters",
-    title: "Drift Hunters",
-    category: "Racing",
-    shortDescription: "Tune, tweak and drift real cars on stylish tracks.",
-    description:
-      "The classic drifting sim. Pick from a huge garage of tuner cars, upgrade suspension, engine and tires, and rack up points on smoky drift runs across multiple tracks.",
-    thumbnail: driftHuntersThumb,
-    embedUrl: "/games/drift-hunters/index.html",
     addedAt: "2026-07-12",
     trending: true,
   },
