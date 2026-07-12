@@ -5,6 +5,7 @@ import driftBossThumb from "@/assets/thumb-drift-boss.png";
 import twentyFortyEightThumb from "@/assets/thumb-2048.png";
 import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
 import paperIoThumb from "@/assets/thumb-paper-io.jpg";
+import blockBlastThumb from "@/assets/thumb-block-blast.png";
 
 export type Game = {
   slug: string;
@@ -105,6 +106,19 @@ export const GAMES: Game[] = [
     thumbnail: paperIoThumb,
     embedUrl: "/games/paper-io/index.html",
     addedAt: "2026-07-12",
+    trending: true,
+  },
+  {
+    slug: "block-blast",
+    title: "Block Blast",
+    category: "Puzzle",
+    shortDescription: "Drag blocks onto the grid and blast full lines for points.",
+    description:
+      "Drag colorful blocks onto an 8x8 grid, fill entire rows or columns to blast them clear, and chain combos for bonus points. Simple rules, no timer — just you, the grid, and how long you can keep it from filling up.",
+    thumbnail: blockBlastThumb,
+    embedUrl: "/games/block-blast/index.html",
+    addedAt: "2026-07-12",
+    featured: true,
     trending: true,
   },
 ];
