@@ -93,8 +93,8 @@ function HomePage() {
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {CATEGORIES.map((cat) => {
               const count = GAMES.filter((g) => g.category === cat).length;
-              const icons = { Racing: TrendingUp, Action: Gamepad, Arcade: Sparkles, Puzzle: Clock };
-              const Icon = icons[cat];
+              const icons: Record<string, typeof TrendingUp> = { Racing: TrendingUp, Action: Gamepad, Arcade: Sparkles, Puzzle: Clock, Sports: TrendingUp };
+              const Icon = icons[cat] ?? Gamepad;
               return (
                 <Link
                   key={cat}
