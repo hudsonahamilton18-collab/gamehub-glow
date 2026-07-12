@@ -6,6 +6,8 @@ import twentyFortyEightThumb from "@/assets/thumb-2048.png";
 import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
 import paperIoThumb from "@/assets/thumb-paper-io.jpg";
 import blockBlastThumb from "@/assets/thumb-block-blast.png";
+import driftHuntersThumbAsset from "@/assets/thumb-drift-hunters.png.asset.json";
+const driftHuntersThumb = driftHuntersThumbAsset.url;
 
 export type Game = {
   slug: string;
