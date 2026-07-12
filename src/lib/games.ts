@@ -87,6 +87,18 @@ export const GAMES: Game[] = [
     addedAt: "2026-07-12",
   },
   {
+    slug: "drift-hunters",
+    title: "Drift Hunters",
+    category: "Racing",
+    shortDescription: "Tune, upgrade and drift high-powered cars for points.",
+    description:
+      "Pick a car, hit the track and rack up points with long, smoky drifts. Cash in your score to upgrade power, handling and paint — then chase the leaderboard on the next map.",
+    thumbnail: driftHuntersThumb,
+    embedUrl: "https://www.madkidgames.com/full/drift-hunters",
+    addedAt: "2026-07-12",
+    trending: true,
+  },
+  {
     slug: "subway-surfers",
     title: "Subway Surfers",
     category: "Action",
