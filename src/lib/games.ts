@@ -3,6 +3,7 @@ import snowRiderThumb from "@/assets/thumb-snow-rider.png";
 import slopeThumb from "@/assets/thumb-slope.png";
 import driftBossThumb from "@/assets/thumb-drift-boss.png";
 import twentyFortyEightThumb from "@/assets/thumb-2048.png";
+import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
 
 export type Game = {
   slug: string;
