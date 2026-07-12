@@ -6,6 +6,8 @@ import twentyFortyEightThumb from "@/assets/thumb-2048.png";
 import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
 import paperIoThumb from "@/assets/thumb-paper-io.jpg";
 import blockBlastThumb from "@/assets/thumb-block-blast.png";
+import driftHuntersThumbAsset from "@/assets/thumb-drift-hunters.png.asset.json";
+const driftHuntersThumb = driftHuntersThumbAsset.url;
 
 export type Game = {
   slug: string;
@@ -83,6 +85,18 @@ export const GAMES: Game[] = [
     thumbnail: twentyFortyEightThumb,
     embedUrl: "/games/2048/index.html",
     addedAt: "2026-07-12",
+  },
+  {
+    slug: "drift-hunters",
+    title: "Drift Hunters",
+    category: "Racing",
+    shortDescription: "Tune, upgrade and drift high-powered cars for points.",
+    description:
+      "Pick a car, hit the track and rack up points with long, smoky drifts. Cash in your score to upgrade power, handling and paint — then chase the leaderboard on the next map.",
+    thumbnail: driftHuntersThumb,
+    embedUrl: "https://www.madkidgames.com/full/drift-hunters",
+    addedAt: "2026-07-12",
+    trending: true,
   },
   {
     slug: "subway-surfers",
