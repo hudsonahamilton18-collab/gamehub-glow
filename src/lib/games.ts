@@ -60,18 +60,6 @@ export const GAMES: Game[] = [
     trending: true,
   },
   {
-    slug: "drift-hunters",
-    title: "Drift Hunters",
-    category: "Racing",
-    shortDescription: "Tune, tweak and drift real cars on stylish tracks.",
-    description:
-      "The classic drifting sim. Pick from a huge garage of tuner cars, upgrade suspension, engine and tires, and rack up points on smoky drift runs across multiple tracks.",
-    thumbnail: driftHuntersThumb,
-    embedUrl: "/games/drift-hunters/index.html",
-    addedAt: "2026-07-12",
-    trending: true,
-  },
-  {
     slug: "drift-boss",
     title: "Drift Boss",
     category: "Racing",
