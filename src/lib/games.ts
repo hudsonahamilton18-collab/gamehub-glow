@@ -1,6 +1,5 @@
 import escapeRoadThumb from "@/assets/thumb-escape-road.jpg";
 import snowRiderThumb from "@/assets/thumb-snow-rider.png";
-import driftHuntersThumb from "@/assets/thumb-drift-hunters.png";
 import slopeThumb from "@/assets/thumb-slope.png";
 import driftBossThumb from "@/assets/thumb-drift-boss.png";
 import twentyFortyEightThumb from "@/assets/thumb-2048.png";
