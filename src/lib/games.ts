@@ -82,6 +82,18 @@ export const GAMES: Game[] = [
     embedUrl: "/games/2048/index.html",
     addedAt: "2026-07-12",
   },
+  {
+    slug: "subway-surfers",
+    title: "Subway Surfers",
+    category: "Action",
+    shortDescription: "Dash across the tracks and outrun the inspector.",
+    description:
+      "Sprint down endless subway tracks, dodge oncoming trains, grab coins and power-ups, and see how far you can go before the grumpy inspector catches up. A timeless endless runner.",
+    thumbnail: subwaySurfersThumb,
+    embedUrl: "https://www.madkidgames.com/full/subway-surfers",
+    addedAt: "2026-07-12",
+    trending: true,
+  },
 ];
 
 export function getGame(slug: string): Game | undefined {
