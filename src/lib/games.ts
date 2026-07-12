@@ -95,6 +95,18 @@ export const GAMES: Game[] = [
     addedAt: "2026-07-12",
     trending: true,
   },
+  {
+    slug: "paper-io",
+    title: "Paper.io 2",
+    category: "Arcade",
+    shortDescription: "Claim territory and outmaneuver rival paper snakes.",
+    description:
+      "Roll out from your home base, sweep across the map, and loop back to claim territory. Cut off rivals to eliminate them — but if anyone touches your trail before you close it, you're out.",
+    thumbnail: paperIoThumb,
+    embedUrl: "/games/paper-io/index.html",
+    addedAt: "2026-07-12",
+    trending: true,
+  },
 ];
 
 export function getGame(slug: string): Game | undefined {
