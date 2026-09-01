@@ -7,7 +7,14 @@ import subwaySurfersThumb from "@/assets/thumb-subway-surfers.jpg";
 import paperIoThumb from "@/assets/thumb-paper-io.jpg";
 import blockBlastThumb from "@/assets/thumb-block-blast.png";
 import driftHuntersThumbAsset from "@/assets/thumb-drift-hunters.png.asset.json";
-const driftHuntersThumb = driftHuntersThumbAsset.url;
+// Lovable-hosted assets are served from the published Lovable app. That origin
+// sends `access-control-allow-origin: *`, so they also load from GitHub Pages.
+// On Lovable itself this resolves to the same file it always did.
+const LOVABLE_ASSET_ORIGIN = "https://gamehub-glow.lovable.app";
+const lovableAsset = (url: string) =>
+  url.startsWith("/__l5e/") ? `${LOVABLE_ASSET_ORIGIN}${url}` : url;
+
+const driftHuntersThumb = lovableAsset(driftHuntersThumbAsset.url);
 
 export type Game = {
   slug: string;
@@ -21,6 +28,19 @@ export type Game = {
   featured?: boolean;
   trending?: boolean;
 };
+
+// Locally hosted games live in the public games folder.
+//
+// BASE_URL keeps these correct when the site is served from a sub-path
+// (e.g. a GitHub Pages project site at /<repo>/).
+//
+// VITE_GAMES_DIR exists because a static host has no router: the prerendered
+// page for the /games/<slug> route and the game's own /games/<slug>/index.html
+// would land on the same path. The Pages build serves the game files from
+// /play instead, so the two never collide. Unset everywhere else.
+const BASE_URL = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
+const GAMES_DIR = import.meta.env.VITE_GAMES_DIR ?? "games";
+const local = (file: string) => `${BASE_URL}/${GAMES_DIR}/${file}`;
 
 export const CATEGORIES = ["Racing", "Action", "Arcade", "Puzzle", "Sports"] as const;
 export type Category = (typeof CATEGORIES)[number];
