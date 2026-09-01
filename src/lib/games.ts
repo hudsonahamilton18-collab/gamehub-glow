@@ -54,7 +54,7 @@ export const GAMES: Game[] = [
     description:
       "Slam the pedal down and burn rubber through a wide-open metropolis. Dodge cop cars, smash through traffic and see how long you can stay ahead of the chase in this arcade-style getaway thriller.",
     thumbnail: escapeRoadThumb,
-    embedUrl: "/games/escape-road/index.html",
+    embedUrl: local("escape-road/index.html"),
     addedAt: "2026-07-11",
     featured: true,
     trending: true,
@@ -67,7 +67,7 @@ export const GAMES: Game[] = [
     description:
       "Guide a rolling ball down a steep, neon-lit slope full of ramps, gaps and red obstacles. Reflexes are everything — one wrong move and it's over. How far can you go before gravity wins?",
     thumbnail: slopeThumb,
-    embedUrl: "/games/slope/index.html",
+    embedUrl: local("slope/index.html"),
     addedAt: "2026-07-12",
     trending: true,
     featured: true,
@@ -80,7 +80,7 @@ export const GAMES: Game[] = [
     description:
       "Grab your sled and rocket down a frosty 3D mountain. Weave past trees, snowmen and giant gifts, collect coins and unlock new sleds. Simple to pick up, tough to master.",
     thumbnail: snowRiderThumb,
-    embedUrl: "/games/snow-rider/index.html",
+    embedUrl: local("snow-rider/index.html"),
     addedAt: "2026-07-12",
     trending: true,
   },
@@ -92,7 +92,7 @@ export const GAMES: Game[] = [
     description:
       "Tap to steer. That's it. Keep the car on the twisting road high above the clouds, nail perfect drifts around each corner and push your score higher every run.",
     thumbnail: driftBossThumb,
-    embedUrl: "/games/drift-boss/index.html",
+    embedUrl: local("drift-boss/index.html"),
     addedAt: "2026-07-12",
   },
   {
@@ -103,7 +103,7 @@ export const GAMES: Game[] = [
     description:
       "The addictive number puzzle. Swipe or arrow-key to slide all tiles in one direction — matching numbers combine. Keep the board alive long enough to hit the legendary 2048 tile.",
     thumbnail: twentyFortyEightThumb,
-    embedUrl: "/games/2048/index.html",
+    embedUrl: local("2048/index.html"),
     addedAt: "2026-07-12",
   },
   {
@@ -138,7 +138,7 @@ export const GAMES: Game[] = [
     description:
       "Roll out from your home base, sweep across the map, and loop back to claim territory. Cut off rivals to eliminate them — but if anyone touches your trail before you close it, you're out.",
     thumbnail: paperIoThumb,
-    embedUrl: "/games/paper-io/index.html",
+    embedUrl: local("paper-io/index.html"),
     addedAt: "2026-07-12",
     trending: true,
   },
@@ -150,7 +150,7 @@ export const GAMES: Game[] = [
     description:
       "Drag colorful blocks onto an 8x8 grid, fill entire rows or columns to blast them clear, and chain combos for bonus points. Simple rules, no timer — just you, the grid, and how long you can keep it from filling up.",
     thumbnail: blockBlastThumb,
-    embedUrl: "/games/block-blast/index.html",
+    embedUrl: local("block-blast/index.html"),
     addedAt: "2026-07-12",
     featured: true,
     trending: true,

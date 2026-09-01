@@ -1,8 +1,8 @@
 {
   "companyName": "Snow Rider",
   "productName": "Snow Rider 3D",
-  "dataUrl": "/__l5e/assets-v1/108e690b-e646-486e-b09a-ecbd7ddaa06a/SnowRider3D-gd-1.data.unityweb",
-  "wasmCodeUrl": "/__l5e/assets-v1/37ff4d1a-ab87-4121-96d7-b6bf94ce2925/SnowRider3D-gd-1.wasm.code.unityweb",
+  "dataUrl": "https://gamehub-glow.lovable.app/__l5e/assets-v1/108e690b-e646-486e-b09a-ecbd7ddaa06a/SnowRider3D-gd-1.data.unityweb",
+  "wasmCodeUrl": "https://gamehub-glow.lovable.app/__l5e/assets-v1/37ff4d1a-ab87-4121-96d7-b6bf94ce2925/SnowRider3D-gd-1.wasm.code.unityweb",
   "wasmFrameworkUrl": "SnowRider3D-gd-1.wasm.framework.unityweb.js",
   "TOTAL_MEMORY": 268435456,
   "graphicsAPI": [
