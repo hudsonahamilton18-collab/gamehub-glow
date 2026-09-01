@@ -1,8 +1,8 @@
 {
   "companyName": "IDnet",
   "productName": "Slope",
-  "dataUrl": "/__l5e/assets-v1/0b76b960-5f2b-4824-9cef-b548e809c7ab/slope_data.unityweb",
-  "wasmCodeUrl": "/__l5e/assets-v1/a1e9ce76-624a-4e8f-8711-2714872683f0/slope_wasmcode.unityweb",
+  "dataUrl": "https://gamehub-glow.lovable.app/__l5e/assets-v1/0b76b960-5f2b-4824-9cef-b548e809c7ab/slope_data.unityweb",
+  "wasmCodeUrl": "https://gamehub-glow.lovable.app/__l5e/assets-v1/a1e9ce76-624a-4e8f-8711-2714872683f0/slope_wasmcode.unityweb",
   "wasmFrameworkUrl": "slope_wasmframework.unityweb",
   "asmCodeUrl": "slope_code.unityweb",
   "asmMemoryUrl": "slope_memory.unityweb",

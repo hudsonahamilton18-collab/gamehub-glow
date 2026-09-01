@@ -14,11 +14,13 @@ Each subfolder here is a self-contained HTML5 game. To add a new game:
   shortDescription: "One-liner shown on cards.",
   description: "Long-form description.",
   thumbnail: myGameThumb, // imported from src/assets
-  embedUrl: "/games/my-game/index.html",
+  embedUrl: local("my-game/index.html"),
   addedAt: "2026-07-11",
   trending: false,
   featured: false,
 }
 ```
+
+`local()` resolves the site's base path and the games folder name for you.
 
 That's it — the site picks it up automatically in the library, categories, and search.

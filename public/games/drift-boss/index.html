@@ -23,7 +23,7 @@
 	<script>
 	// Redirect .babylon requests to CDN (dev server won't serve that extension)
 	(function(){
-		var BABYLON_URL = "/__l5e/assets-v1/790d6b61-3fad-4cac-ac6e-74b9e99e5544/game-scene.babylon";
+		var BABYLON_URL = "https://gamehub-glow.lovable.app/__l5e/assets-v1/790d6b61-3fad-4cac-ac6e-74b9e99e5544/game-scene.babylon";
 		var _open = XMLHttpRequest.prototype.open;
 		XMLHttpRequest.prototype.open = function(m, u){
 			if (typeof u === "string" && u.indexOf("game-scene.babylon") !== -1) u = BABYLON_URL;
@@ -31,7 +31,7 @@
 		};
 	})();
 	</script>
-	<script type="text/javascript" src="/__l5e/assets-v1/2088bc40-1526-4ef1-85fa-1cd0e1877197/game.js"></script>
+	<script type="text/javascript" src="https://gamehub-glow.lovable.app/__l5e/assets-v1/2088bc40-1526-4ef1-85fa-1cd0e1877197/game.js"></script>
 	<!-- AnalyticsCode -->
 
 	<!-- APICode -->
